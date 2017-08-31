@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.css"/>
+		<link rel="stylesheet" type="text/css" href="css/xcConfirm.css"/>
+		<link rel="stylesheet" type="text/css" href="css/table1.css"/>
+	</head>
+	<body>
+		<div class="form-content">
+			<h3 class="text-center">浙江省省本级因公临时出国经费预算审核表</h3>
+			<table class="table table-bordered">
+				<tbody>
+					<tr>
+						<td colspan="5">
+							<span class="text1">单位名称：宁波大学</span>
+							<span class="text2">金额单位：人民币元</span>
+						</td>
+					</tr>
+					<tr>
+						<td rowspan="9" class="bigT">出国任务基本情况</td>
+						<td>团组名称</td>
+						<td class="groupName" style="text-align: left;">
+							<p>
+								<input type="text" disabled="disabled" id="departName"/><span>学院/部门</span>
+							</p>
+							<p>
+								<input type="text" disabled="disabled" id="departTeacher"/><span>教师</span>
+							</p>
+						</td>
+						<td>组团单位</td>
+						<td id="GroupUnit"></td>
+					</tr>
+					<tr>
+						<td>出访国家（地区）</td>
+						<td id="FContory"></td>
+						<td>本单位出访人数</td>
+						<td id="VisitNumber"></td>
+					</tr>
+					<tr>
+						<td>出访时间</td>
+						<td id="VisitTime"></td>
+						<td>出访天数</td>
+						<td id="VisitDay"></td>
+					</tr>
+					<tr>
+						<td>本单位年度出国<br>经费控制指标</td>
+						<td colspan="3" ></td>
+					</tr>
+					<tr>
+						<td>本次出访前已用指标</td>
+						<td colspan="3"></td>
+					</tr>
+					<tr>
+						<td>本次出访费用预计</td>
+						<td id="EstimatedCost"></td>
+						<td>人均费用</td>
+						<td id="PerCapitaCost"></td>
+					</tr>
+					<tr>
+						<td>其中：国际旅费</td>
+						<td>国外城市间交通费</td>
+						<td>住宿费、伙食费、公杂费</td>
+						<td>其他费用</td>
+					</tr>
+					<tr>
+						<td id="TravelExpenses"></td>
+						<td id="TrafficExpense"></td>
+						<td id="LivingExpenses"></td>
+						<td id="OtherExpenses"></td>
+					</tr>
+					<tr>
+						<td>备注</td>
+						<td colspan="3" style="text-align: left;">其他为签证保险费注册费必填</td>
+					</tr>
+				</tbody>
+			</table>
+			<table class="table table-bordered gaizhang">
+				<tbody>
+					<tr>
+						<td class="bigT">本单位意见</td>
+						<td colspan="4">
+							<div>
+								<span class="text1 jz">审核意见：</span>
+							</div>
+							<div class="gz">
+								<p class="gzp">（盖章）</p>
+								<p class="gzs">
+									<span class="kg"></span>年<span class="kg"></span>月<span class="kg"></span>日
+								</p>
+							</div>
+						</td>
+					</tr>					
+				</tbody>
+
+			</table>
+			<table class="table table-bordered low">
+				<tbody>
+					<tr>
+						<td rowspan="3" class="bigT">备注</td>
+						<td colspan="5" >
+							1.各单位因公临时组派人员出国及赴港、澳、台地区应填报本表。本表一式2份，1份由组团<br>单位报外事审批部门，1份单位留存作报销凭证。
+						</td>
+					</tr>
+					<tr>
+						<td colspan="5">
+							2.如同一团组人员涉及两个以上单位的，需分单位填报。
+						</td>
+					</tr>
+					<tr>
+						<td colspan="5">
+							3.其他费用说明：
+						</td>
+					</tr>
+					<tr>
+						<td colspan="2"><div style="width: 264.66667px; text-align: center;">填报单位经办人：董新</div></td>
+						<td colspan="2" style="text-align: center;">联系电话：0574-87600294</td>
+						<td colspan="2" style="text-align: center;">
+							日期：<span class="kg"></span><span class="kg"></span>年<span class="kg"></span>月<span class="kg"></span>日
+						</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+	</body>
+	<script src="js/jquery.min.js"></script>
+	<script src="js/xcConfirm.js"></script>
+	<script src="js/gloab.js"></script>
+	<script src="js/VerifyManager/table1.js"></script>
+</html>

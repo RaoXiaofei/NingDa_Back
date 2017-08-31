@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+		<title>申报管理详情</title>
+		<link rel="stylesheet" href="css/bootstrap.min.css" />
+		<link rel="stylesheet" type="text/css" href="css/xcConfirm.css"/>
+		<link rel="stylesheet" type="text/css" href="css/base.css"/>
+		<link rel="stylesheet" href="css/depart-account.css" />
+		<link rel="stylesheet" href="css/submit-manager.css" />
+	</head>
+
+	<body>		
+		<!-- 申报管理详情 -->
+		<div id="submit-detail" class="content3" style="position: relative;">
+				<div class="icon">
+					<div class="left"></div>
+					<span class="goBack">返回列表页</span>
+				</div>				
+			<div class="add-account-body" >
+				<ul>
+					<li><span class="add-account-text">教师名称：</span></li>
+					<li>
+						<span class="add-account-text" id="name"></span>
+					</li>
+				</ul>
+				<ul>
+					<li><span class="add-account-text">所属院系：</span></li>
+					<li>
+						<span class="add-account-text" id="depart"></span>
+					</li>
+				</ul>
+				<ul>
+					<li><span class="add-account-text">职称：</span></li>
+					<li>
+						<span class="add-account-text" id="job"></span>
+					</li>
+				</ul>
+				<ul>
+					<li><span class="add-account-text">出访类型：</span></li>
+					<li>
+						<span class="add-account-text" id="type"></span>
+					</li>
+				</ul>
+				<ul class="bottom-ul">
+					<li><span class="add-account-text">出访地域：</span></li>
+					<li>
+						<span class="add-account-text" id="local"></span>
+					</li>
+				</ul>
+			</div>
+			
+			<div class="add-account-body llll">
+				<ul>
+					<a href="#"><li><span class="add-submit-text2"><浙江省省本级因公临时出国经费预算审核表></span></li></a>
+					<li>
+						<button type="button" class="detail-button preview1">预览</button>
+					</li>
+				</ul>
+				<ul>
+					<a href="#"><li><span class="add-submit-text2"><函></span></li></a>
+					<li>
+						<button type="button" class="detail-button preview2">预览</button>
+					</li>
+				</ul>
+				<ul>
+					<a href="#"><li><span class="add-submit-text2"><宁波大学因公临时人员备案表></span></li></a>
+					<li>
+						<button type="button" class="detail-button preview3">预览</button>
+					</li>
+				</ul>
+				<ul>
+					<a href="#"><li><span class="add-submit-text2"><日程表></span></li></a>
+					<li>
+						<button type="button" class="detail-button preview4">预览</button>
+					</li>
+				</ul>
+				<ul>
+					<a href="#"><li><span class="add-submit-text2"><宁波大学因公出行前教育表></span></li></a>
+					<li>
+						<button type="button" class="detail-button preview5">预览</button>
+					</li>
+				</ul>
+				<ul class="bottom-ul">
+					<a href="#"><li><span class="add-submit-text2"><宁波大学因公出国团组信息事先内部公示表></span></li></a>
+					<li>
+						<button type="button" class="detail-button preview6">预览</button>
+					</li>
+				</ul>
+			</div>
+			<div class="jindu">
+				<div class="circleImg">
+					<img src="image/one.png" /><span class="num">1</span>
+					<p>提交</p>
+				</div>
+				<div class="order" style="margin-right: 26px;">
+					<img src="image/order.png" />
+				</div>
+				<div class="circleImg" style="width: 108px;">
+					<img src="image/three.png" /><span class="num" style="width: 108px;">2</span>
+					<p>所在学院、部门审核</p>
+					<p class="textPass"></p>
+				</div>
+				<div class="order" style="margin-left: 26px; margin-right: 18px;">
+					<img src="image/order.png" />
+				</div>
+				<div class="circleImg" style="width: 96px;">
+					<img src="image/three.png" /><span class="num" style="width: 96px;">3</span>
+					<p>项目单位管理审核</p>
+					<p class="textPass"></p>
+				</div>
+				<div class="order" style="margin-left: 18px; margin-right: 38px;">
+					<img src="image/order.png" />
+				</div>
+				<div class="circleImg" style="width: 84px;">
+					<img src="image/three.png" /><span class="num" style="width: 84px;">4</span>
+					<p>国际处审核</p>
+					<p class="textPass"></p>
+				</div>
+				<div class="order" style="margin: 0 38px;">
+					<img src="image/order.png" />
+				</div>
+				<div class="circleImg" style="width: 84px;">
+					<img src="image/three.png" /><span class="num" style="width: 84px;">5</span>
+					<p>组织部审核</p>
+					<p class="textPass"></p>
+				</div>
+				<div class="order" style="margin: 0 38px;">
+					<img src="image/order.png" />
+				</div>
+				<div class="circleImg" style="width: 84px;">
+					<img src="image/three.png" /><span class="num" style="width: 84px;">6</span>
+					<p>党委领导审核</p>
+					<p class="textPass"></p>
+				</div>
+			</div>
+		</div>
+		<div class="form form1">
+			<div class="form-content">
+			<iframe style="width: 860px; height: 1216px;"  id="printIframe1" src="table1.html" frameborder="0" scrolling="no"></iframe>				
+			</div>
+			<div class="text-center">
+				<span class="dy" onclick="printme(this)">打印</span>
+			</div>			
+		</div>
+		<div class="form form2">
+			<div class="form-content">
+			<iframe style="width: 860px; height: 1216px;"  id="printIframe2" src="table2.html" frameborder="0" scrolling="no"></iframe>				
+			</div>
+			<div class="text-center">
+				<span class="dy" onclick="printme(this)">打印</span>
+			</div>			
+		</div>
+		<div class="form form4">
+			<div class="form-content">
+			<iframe style="width: 860px; height: 1216px;"  id="printIframe3" src="table3.html" frameborder="0" scrolling="no"></iframe>				
+			</div>
+			<div class="text-center">
+				<span class="dy" onclick="printme(this)">打印</span>
+			</div>			
+		</div>
+		<div class="form form5">
+			<div class="form-content">
+			<iframe style="width: 860px; height: 1216px;"  id="printIframe4" src="table4.html" frameborder="0" scrolling="no"></iframe>				
+			</div>
+			<div class="text-center">
+				<span class="dy" onclick="printme(this)">打印</span>
+			</div>			
+		</div>
+		<div class="form form6">
+			<div class="form-content">
+			<iframe style="width: 860px; height: 1216px;"  id="printIframe5" src="table5.html" frameborder="0" scrolling="no"></iframe>				
+			</div>
+			<div class="text-center">
+				<span class="dy" onclick="printme(this)">打印</span>
+			</div>			
+		</div>
+		<div class="form form7">
+			<div class="form-content">
+			<iframe style="width: 860px; height: 1216px;"  id="printIframe6" src="table6.html" frameborder="0" scrolling="no"></iframe>				
+			</div>
+			<div class="text-center">
+				<span class="dy" onclick="printme(this)">打印</span>
+			</div>			
+		</div>
+	</body>
+
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<script src="js/xcConfirm.js"></script>
+	<script src="js/gloab.js"></script>
+	<script src="js/DeclarationManager/submit.js"></script>
+</html>
+<script type="text/javascript">
+	function printme(e){
+		$(e).parents(".form").children(".form-content").children("iframe")[0].contentWindow.print();
+	}
+</script>

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+		<title>教师管理</title>
+		<link href="css/bootstrap.css" rel="stylesheet" type="text/css" />
+		<link href="fonticon/iconfont.css" rel="stylesheet" type="text/css" />
+		<link href="css/base.css" rel="stylesheet" type="text/css" />
+		<link rel="stylesheet" href="css/depart-account.css" />
+		<link rel="stylesheet" href="css/xcConfirm.css" />
+	</head>
+
+	<body>
+		<!--教师管理-->
+		<div id="department-account" class="content" >
+			<ul >
+				<li>
+					<input type="text" class="search" id="teacherSearchInput" placeholder="关键词搜索" value="">
+				</li>
+				<li>
+					<button type="button" class="ask-button" onclick="TeacherSearch()">查询</button>
+				</li>
+				<li>
+					<button type="button" class="reset-button" id="teacherResetButton">重置</button>
+				</li>
+				<li style="float: right;">
+					<button id="fileIn" type="button" class="import add-button">导入
+						<input id="file" type="file" onchange="FileIn()" />
+					</button>
+				</li>
+				<li style="float: right;">
+					<a href="TeacherManagerAdd.html"><button type="button" class="add-button" id="teacherAddButton">添加</button></a>
+				</li>
+			</ul>
+			<table class="depart-table" id="teacherIndexTable">
+				<tr>
+					<td style="width: 30%;"><span class="depart-table-title">姓名或账号</span></td>
+					<td style="width: 30%;"><span class="depart-table-title">部门院系</span></td>
+					<td style="width: 30%;"><span class="depart-table-title">职称</span></td>
+					<td ><span class="depart-table-title">操作</span></td>
+				</tr>
+				<!--<tr id="">
+					<td><span class="depart-table-text">张三</span></td>
+					<td><span class="depart-table-text">信息工程系</span></td>
+					<td><span class="depart-table-text">教师</span></td>
+					<td>
+						<a href="TeacherManagerDetail.html?id="><button type="button" class="detail-button">详情</button></a>
+					</td>
+				</tr>-->
+			</table>
+			
+			<div class="tcdPageCode"></div>
+		</div>
+
+	</body>
+
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script src="js/xcConfirm.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<script src="js/jquery.page.js"></script>
+	<script type="text/javascript" src="js/gloab.js" ></script>
+	<script type="text/javascript" src="js/TeacherManager/TeacherManager.js" ></script>
+</html>

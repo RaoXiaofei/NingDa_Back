@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+		<title>申报管理</title>
+		<link rel="stylesheet" href="css/bootstrap.css" />
+		<link rel="stylesheet" type="text/css" href="css/xcConfirm.css"/>
+		<link rel="stylesheet" type="text/css" href="css/base.css"/>
+		<link rel="stylesheet" href="css/depart-account.css" />
+		<link rel="stylesheet" href="css/submit-manager.css" />
+	</head>
+
+	<body>
+		<!--申报管理-->
+		<div id="submit-manager" class="content" >
+			<ul >
+				<li>
+					<input type="text" class="search" id="" placeholder="关键词搜索">
+				</li>
+				<li>
+					<select class="form-control place " id="local">
+						<option value="-1">全部</option>
+						<option value="0">国外</option>
+						<option value="1">港澳台</option>
+					</select>
+				</li>
+				<li>
+					<select class="form-control place" id="type">
+						<option value="-1">全部</option>
+						<option value="0">行政</option>
+						<option value="1">学术</option>
+					</select>
+				</li>
+				<li>
+					<button type="button" class="ask-button">查询</button>
+				</li>
+				<li>
+					<button type="button" class="reset-button">重置</button>
+				</li>
+			</ul>
+			<table class="depart-table">
+
+			</table>
+			<div class="tcdPageCode"></div>
+		</div>
+
+	</body>
+
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<script src="js/xcConfirm.js"></script>
+	<script src="js/gloab.js"></script>
+	<script src="js/jquery.page.js"></script>
+	<script src="js/DeclarationManager/Declaration.js"></script>
+</html>

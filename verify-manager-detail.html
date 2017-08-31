@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+		<title>审核管理详情</title>
+		<link rel="stylesheet" href="css/bootstrap.min.css" />
+		<link rel="stylesheet" type="text/css" href="css/xcConfirm.css"/>
+		<link rel="stylesheet" href="css/depart-account.css" />
+	</head>
+
+	<body>
+		<!-- 审核管理详情 -->
+		<div id="verify-detail" class="content3" >
+			<div class="icon">
+				<div class="left"></div>
+				<span class="goBack">返回列表页</span>
+			</div>
+			<div class="add-account-body">
+				<ul>
+					<li><span class="add-account-text">名称：</span></li>
+					<li>
+						<input type="text" class="form-control form3" name="" id="name" value=""/>
+					</li>
+				</ul>
+				<ul class="bottom-ul">
+					<li><span class="add-account-text">审核步骤：</span></li>
+					<li>
+						<select class="form-control form3 buzhou" >
+							<option value="0">部门审核</option>
+							<option value="1">项目管理单位审核</option>
+							<option value="2">国际处审核</option>
+							<option value="3">组织部审核</option>
+							<option value="4">党委副领导审核</option>
+							<option value="5">党委正领导审核</option>
+						</select>
+					</li>
+				</ul>
+			</div>
+			<div class="btnDiv">
+				<button type="button" class="save-button" id="sure" style="margin-left: 230px;">保存</button>	
+			</div>
+				
+		</div>
+		
+	</body>
+
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<script src="js/xcConfirm.js"></script>
+	<script src="js/gloab.js"></script>
+	<script src="js/VerifyManager/verifyDetail.js"></script>
+</html>

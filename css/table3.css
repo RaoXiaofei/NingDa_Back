@@ -1,0 +1,54 @@
+
+.form-content{
+	background: #fff;
+	width: 860px;
+	padding: 35px 0;
+	margin: auto;
+	font-family:"微软雅黑";
+	font-size: 12px;
+	margin-bottom: 20px;
+}
+.table,h3{
+	width: 794px;
+	margin: auto;
+}
+.form-content h3{
+	margin-bottom: 60px;
+	font-family:"微软雅黑";
+}
+.table>tbody>tr>td{
+	padding: 5px;
+	width: 70px;
+	text-align: center;
+	vertical-align: middle;
+}
+.form-content td span{
+	vertical-align: super;
+	color: #A93139;
+}
+.table>tbody>tr>td.bigbox{
+	text-align: left;
+}
+ .form-content input{
+    width: 100%;
+    border: none;
+    outline: none;
+    text-align: center;
+}
+ .form-content p{
+	margin: 0;
+}
+.opinion{
+	display: inline-block;
+	width: 70px;
+}
+input[type="text" i]:disabled{
+	background: transparent;
+}
+.dy{
+	background: #BD4B53;
+	color: #fff;
+	padding: 5px 20px;
+	border-radius: 4px;
+	cursor: pointer;
+}

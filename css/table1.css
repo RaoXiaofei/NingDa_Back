@@ -1,0 +1,75 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family: "微软雅黑";
+}
+.form-content{
+	background: #fff;
+	width: 860px;
+	padding: 35px 0;
+	margin: auto;
+	font-size: 12px;
+	margin-bottom: 20px;
+}
+.table,h3,.gaizhang{
+	width: 794px;
+	margin:auto;
+	font-family:"微软雅黑";
+}
+.table>tbody>tr>td{
+	padding: 0;
+	width: 180.25px;
+	height: 34px;
+	text-align: center;
+	vertical-align: middle;
+}
+.table>tbody>tr>td.bigT{
+	width: 20px;
+	padding: 30px;
+}
+.form-content h3{
+	margin-bottom: 60px;
+}
+.text1{
+	float: left;
+}
+.text2{
+	float: right;
+}
+.gaizhang{
+	border: 1px solid #ddd ;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.gz{
+	margin-top: 150px;
+}
+.gzp,.gzs{
+	text-align: right;
+}
+.gzp{
+	padding-right: 120px;
+}
+.low>tbody>tr>td{
+	height: 51px;
+	text-align: left;
+	padding-left: 10px;
+}
+.kg{
+	display: inline-block;
+	width: 30px;
+}
+.jz{
+	padding-left: 10px;
+}
+input[type="text" i]:disabled{
+	background: transparent;
+	border: none;
+	width:125px;
+	text-align: center;
+}
+.groupName p{
+	margin-bottom: 0;
+}

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+		<title>出访管理详情</title>
+		<link rel="stylesheet" href="css/bootstrap.css" />
+		<link rel="stylesheet" href="css/xcConfirm.css" />
+		<link rel="stylesheet" href="css/depart-account.css" />
+	</head>
+
+	<body>
+		<!-- 出访管理详情 -->
+		<div id="visited-detail" class="content3" >
+			<!-- 返回列表页 -->
+			<a href="VisitedManager.html">
+				<div class="icon">
+					<div class="left"></div>
+					<span class="goBack">返回列表页</span>
+				</div>
+			</a>
+			
+			<div class="add-account-body">
+				<ul>
+					<li><span class="add-account-text">名称：</span></li>
+					<li id="visitedDEplace">
+						<input type="text" class="form-control form3" name="" id="visitingDEName" value="" readonly="readonly"/>
+					</li>
+				</ul>
+				<ul>
+					<li><span class="add-account-text">出访地域：</span></li>
+					<li>
+						<input type="radio" id="visitedPlace1" checked="checked" name="visitedplace" value="0">
+ 			 			<label name="visitedPlace" class="checked" for="visitedPlace1">国外</label>
+  						<input type="radio" id="visitedPlace2" name="visitedplace" value="1">
+  						<label name="visitedPlace" for="visitedPlace2" style="margin-left: 33px;">港澳台</label>
+					</li>
+				</ul>
+				<ul class="bottom-ul">
+					<li><span class="add-account-text">出访类型：</span></li>
+					<li>
+						<input type="radio" id="visitedType1" checked="checked" name="visitedtype" value="0">
+ 			 			<label name="visitedType" class="checked" for="visitedType1">行政出访</label>
+  						<input type="radio" id="visitedType2" name="visitedtype" value="1">
+  						<label name="visitedType" for="visitedType2" style="margin-left: 6px;">学术出访</label>
+					</li>
+				</ul>
+			</div>
+			
+			<div class="btnDiv">
+				<button type="button" class="save-button" id="edit-visited-detail">编辑</button>	
+				<button type="button" class="save-button" id="save-visited-detail" style="display: none;">保存</button>	
+			</div>
+		</div>
+		
+	</body>
+
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script src="js/xcConfirm.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/gloab.js" ></script>
+	<script src="js/VisitedManager/VisitedManagerDetail.js"></script>
+</html>

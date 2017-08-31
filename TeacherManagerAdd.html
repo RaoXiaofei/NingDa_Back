@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+		<title>教师管理详情</title>
+		<link rel="stylesheet" href="css/bootstrap.css" />
+		<link rel="stylesheet" type="text/css" href="css/base.css"/>
+		<link rel="stylesheet" href="css/depart-account.css" />
+		<link rel="stylesheet" href="css/submit-manager.css" />
+		<link rel="stylesheet" href="css/xcConfirm.css" />
+		<link rel="stylesheet" type="text/css" href="css/teacher-manager-detail.css"/>
+	</head>
+
+	<body>
+		<!-- 教师管理添加 -->
+		<div id="submit-detail" class="content3" style="position: relative;">
+			
+			<!-- 返回列表页 -->
+			<a href="TeacherManager.html">
+				<div class="icon">
+					<div class="left"></div>
+					<span class="goBack">返回列表页</span>
+				</div>
+			</a>
+			
+			<div class="tm-detail" >
+				<ul>
+					<li><span class="add-account-text">登录账号：</span></li>
+					<li>
+						<input type="text" class="form-control form3" name="" id="login-account" value=""/>
+					</li>
+				</ul>
+				<ul>
+					<li><span class="add-account-text">真实姓名：</span></li>
+					<li>
+						<input type="text" class="form-control form3" name="" id="real-name" value=""/>
+					</li>
+				</ul>
+				<ul>
+					<li><span class="add-account-text">密码：</span></li>
+					<li>
+						<input type="text" class="form-control form3" name="" id="login-pass" value=""/>
+					</li>
+				</ul>
+				<ul>
+					<li><span class="add-account-text">部门院系：</span></li>
+					<li>
+						<input type="text" class="form-control form3" name="" id="teacher-depart" value=""/>
+					</li>
+				</ul>
+				<ul class="bottom-ul">
+					<li><span class="add-account-text">职称：</span></li>
+					<li>
+						<input type="text" class="form-control form3" name="" id="teacher-quanli" value=""/>
+					</li>
+				</ul>
+			</div>
+			<div class="btnDiv">
+				<button type="button" class="save-button" id="teacherSaveButton">保存</button>
+			</div>
+		</div>
+	
+	</body>
+
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<script src="js/xcConfirm.js"></script>
+	<script src="js/jQuery.md5.js"></script>
+	<script type="text/javascript" src="js/gloab.js" ></script>
+	<script type="text/javascript" src="js/TeacherManager/TeacherManagerAdd.js"></script>
+</html>

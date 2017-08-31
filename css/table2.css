@@ -1,0 +1,52 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family: "微软雅黑";
+}
+.form-content{
+	background: #fff;
+	width: 860px;
+	padding: 35px 0;
+	margin: auto;
+	font-size: 12px;
+	margin-bottom: 20px;
+}
+.invit-content{
+	border: 1px solid #ddd;
+	padding-top: 80px;
+	padding-bottom: 440px;
+}
+.invit-content,h3{
+	width: 794px;
+	margin:auto;
+	font-family:"微软雅黑";
+}
+.form-content h3{
+	margin-bottom: 60px;
+}
+input[type="text"]{
+	border: none;
+    outline: none;
+    border-bottom: 1px solid #333;
+    text-align: center;
+}
+input[type="text" i]:disabled{
+	background: transparent;
+}
+.top-content,.low-content{
+	width: 700px;
+	margin: auto;
+}
+.top-content{
+	margin-bottom: 80px;
+}
+p{
+		margin-bottom: 20px;
+}
+.low-content p{
+	text-align: right;
+}
+
+
